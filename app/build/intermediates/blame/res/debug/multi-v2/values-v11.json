@@ -1,0 +1,64 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Work_studio\\Google-Maps-Google-Place\\NewP\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "E:\\Work_studio\\Google-Maps-Google-Place\\NewP\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "182",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "316"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\kim\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.0.aar\\f2e221cf53ce7e55f39ccb9abd66fc9f\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "4,10,16,22,28,34,42,43,44,49,56,58,62,63,64,115,169",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "297,716,1141,1569,1995,2422,3084,3173,3274,3682,4339,4446,4812,4883,4966,8674,12759",
+                        "endLines": "9,15,21,27,33,39,42,43,48,53,57,59,62,63,114,166,169",
+                        "endColumns": "12,12,12,12,12,12,88,100,12,12,12,12,70,82,12,12,90",
+                        "endOffsets": "711,1136,1564,1990,2417,2842,3168,3269,3677,4097,4441,4570,4878,4961,8669,12517,12845"
+                    },
+                    "to": {
+                        "startLines": "5,11,17,23,29,35,41,42,43,48,53,55,57,58,59,110,162",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "192,611,1036,1464,1890,2317,2742,2831,2932,3340,3760,3867,3996,4067,4150,7858,11706",
+                        "endLines": "10,16,22,28,34,40,41,42,47,52,54,56,57,58,109,161,162",
+                        "endColumns": "12,12,12,12,12,12,88,100,12,12,12,12,70,82,12,12,90",
+                        "endOffsets": "606,1031,1459,1885,2312,2737,2826,2927,3335,3755,3862,3991,4062,4145,7853,11701,11792"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\kim\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-appinvite-9.0.2.aar\\4565363968c91746204f0a51e641c066\\res\\values-v11\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "220",
+                        "endColumns": "117",
+                        "endOffsets": "333"
+                    },
+                    "to": {
+                        "startLines": "163",
+                        "startColumns": "4",
+                        "startOffsets": "11797",
+                        "endColumns": "117",
+                        "endOffsets": "11910"
+                    }
+                }
+            ]
+        }
+    ]
+}

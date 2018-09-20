@@ -1,0 +1,331 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ebf1ff"
+    tools:context="${relativePackage}.${activityClass}" xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#6f79b4" 
+    >
+    
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:text="Story"/>
+    
+</RelativeLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#ffffff" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tx1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="여행기"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tx2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="운동정보"
+                   android:textColor="#6f79b4"
+                
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tx3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="날씨정보"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+       android:background="#ebf1ff"
+        >
+        <WebView
+            android:id="@+id/map_wb1" 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            />
+        
+        
+    </LinearLayout>
+    
+       <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:layout_margin="10dp"
+        >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            >
+            
+                 <LinearLayout  
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            
+                     <TextView 
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="출발지를  내위치로 지정"
+                         android:layout_gravity="center_vertical"
+                         android:gravity="center_vertical"
+                         android:textColor="#000000"
+                         />
+                     
+            <ImageView 
+                android:id="@+id/map_mypoint"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/where"
+            android:layout_height="wrap_content"/>
+        </LinearLayout>
+        
+                     <LinearLayout  
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            
+                     <TextView 
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="도착지를  내위치로 지정"
+                         android:layout_gravity="center_vertical"
+                         android:gravity="center_vertical"
+                         android:textColor="#000000"
+                         />
+            <ImageView 
+                android:id="@+id/map_mypoint1"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/where"
+            android:layout_height="wrap_content"/>
+        </LinearLayout>
+            
+        </LinearLayout>
+
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            >
+            
+                    <RelativeLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <TextView 
+                android:text=" 거리 "
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="14sp"
+                android:textColor="#000000"
+            android:layout_height="wrap_content"/>
+        </RelativeLayout>
+           <RelativeLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <TextView 
+                android:id="@+id/map_dis"
+                android:text="- -"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="14sp"
+                android:textColor="#6f79b4"
+            android:layout_height="wrap_content"/>
+        </RelativeLayout>
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    />
+        </LinearLayout>
+   
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            >
+            
+            <LinearLayout android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="3">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:text="몸무게" />
+
+                <EditText
+                    android:id="@+id/map_ed1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    
+                     />
+                
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="3">
+
+                <TextView
+                    android:id="@+id/tx_btn_weight"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:text="운동량 " />
+
+                <TextView
+                    android:id="@+id/map_exer"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#6f79b4"
+                    android:gravity="center"
+                    android:text="- -" />
+                
+            </LinearLayout>
+        </LinearLayout>   
+        
+           
+        
+           
+        </LinearLayout>
+    
+ <LinearLayout 
+        android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:layout_alignParentBottom="true"
+       android:background="#ffffff"
+       
+       
+       >
+      <RelativeLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1" 
+          >
+          <ImageView
+              android:id="@+id/img2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/home1"
+              android:layout_margin="10dp" 
+              android:layout_centerInParent="true"
+              />
+          
+      </RelativeLayout>
+       
+         <RelativeLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1" 
+          >
+          <ImageView
+              android:id="@+id/img3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/story2"
+              android:layout_margin="10dp" 
+              android:layout_centerInParent="true"
+              />
+          
+      </RelativeLayout>
+         <RelativeLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1" 
+          >
+          <ImageView
+              android:id="@+id/img4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/write1"
+              android:layout_margin="10dp" 
+              android:layout_centerInParent="true"
+              />
+          
+      </RelativeLayout>
+         <RelativeLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1" 
+          >
+          <ImageView
+              android:id="@+id/img5"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/setting1"
+              android:layout_margin="10dp" 
+              android:layout_centerInParent="true"
+              />
+          
+      </RelativeLayout>
+  
+  
+       
+       
+   </LinearLayout>
+           
+</LinearLayout>

@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Sun Jul 01 02:56:58 KST 2018
+1.base=E\:\\Work_studio\\Google-Maps-Google-Place\\NewP\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\68
+2.path=classes.dex
+0.baseType=DIRECTORY
+2.base=E\:\\Work_studio\\Google-Maps-Google-Place\\NewP\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\68
+2.set=DEX
+1.baseType=DIRECTORY
+count=3
+1.set=DEX
+0.path=classes2.dex
+0.set=DEX
+0.base=E\:\\Work_studio\\Google-Maps-Google-Place\\NewP\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\68
+2.baseType=DIRECTORY
+1.path=classes3.dex
