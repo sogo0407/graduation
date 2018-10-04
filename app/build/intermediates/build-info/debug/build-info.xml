@@ -1,84 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
+    abi="x86"
     api-level="26"
     build-mode="COLD"
     density="420dpi"
     format="10"
-    ir-eligibility="FIELD_ADDED"
     plugin-version="3.1.2"
-    timestamp="1530381354042"
-    token="7513460823171577682"
+    timestamp="1538642566284"
+    token="-921018216984637148"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1629" />
+        duration="3982" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="48" />
+        duration="0" />
     <task
         name="verifier"
-        duration="35" />
+        duration="0" />
 
     <artifact
-        location="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        location="C:\sh2\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
         type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1530381304161"
+        timestamp="1538642377732"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="C:\sh2\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\sh2\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="C:\sh2\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="C:\sh2\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="C:\sh2\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="C:\sh2\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="C:\sh2\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="C:\sh2\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\sh2\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="C:\sh2\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\sh2\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            location="C:\sh2\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\sh2\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
-        <artifact
-            location="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
-            type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="FIELD_ADDED"
-        timestamp="1530381354042"
+        timestamp="1538642566284"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="C:\sh2\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
     </build>
 

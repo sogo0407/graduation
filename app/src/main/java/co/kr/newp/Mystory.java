@@ -16,6 +16,9 @@ import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.firebase.iid.FirebaseInstanceId;
+import com.google.firebase.messaging.FirebaseMessaging;
+
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONArray;
@@ -28,7 +31,10 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 //나의 이야기
 public class Mystory extends Activity {
-	ImageView img2,img3,img4,img5,imgtop;
+
+	private static final String TAG = Mystory.class.getSimpleName();
+
+	ImageView img2,img3,img4,img5,imgtop, img6;
 	TextView tx1,txtop;
 	SharedPreferencesUtil spu;
 	ArrayList<Data_content> arr;
@@ -38,21 +44,30 @@ public class Mystory extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_mystory);
+
+		FirebaseMessaging.getInstance().subscribeToTopic("news");
+		FirebaseInstanceId.getInstance().getToken();
+
+		if (FirebaseInstanceId.getInstance().getToken() != null) {
+			Log.d(TAG, "token = " + FirebaseInstanceId.getInstance().getToken());
+		}
+
+		//MyFirebaseInstanceIDService service = new MyFirebaseInstanceIDService();	여기 오류남
+		//service.onTokenRefresh();
+
 		tx1=(TextView) findViewById(R.id.main_profile_tx1);
 		txtop=(TextView) findViewById(R.id.main_profile_txtop);
 		img2=(ImageView) findViewById(R.id.main_profile_img2);
 		img3=(ImageView) findViewById(R.id.main_profile_img3);
 		img4=(ImageView) findViewById(R.id.main_profile_img4);
 		img5=(ImageView) findViewById(R.id.main_profile_img5);
+		img6=(ImageView) findViewById(R.id.friendlist);
 		imgtop=(ImageView) findViewById(R.id.main_profile_imgtop);
 		spu=new SharedPreferencesUtil(getApplicationContext());
 		grid1=(GridView) findViewById(R.id.mystory_grid1);
 		
 
-			 
-		
-		
-				}
+	}
 	
 	//oncreate
 					
@@ -255,7 +270,7 @@ public class Mystory extends Activity {
 					
 				}
 			});
-img5.setOnClickListener(new OnClickListener() {
+			img5.setOnClickListener(new OnClickListener() {
 				
 				@Override
 				public void onClick(View arg0) {
@@ -264,8 +279,16 @@ img5.setOnClickListener(new OnClickListener() {
 					
 				}
 			});
-			
-		}
-	  
-	  
-}
+
+		  img6.setOnClickListener(new OnClickListener() {
+
+			  @Override
+			  public void onClick(View arg0) {
+				  // TODO Auto-generated method stub
+				  startActivity(new Intent(getApplicationContext(), friendlist.class));
+			  }
+
+		  });
+
+		  }
+	  }

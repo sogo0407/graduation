@@ -4,10 +4,13 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
+import android.util.Base64;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -18,34 +21,108 @@ import android.widget.Toast;
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 
+import java.security.MessageDigest;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+import  android.content.pm.Signature;
+import com.kakao.kakaolink.v2.KakaoLinkResponse;
+import com.kakao.kakaolink.v2.KakaoLinkService;
+import com.kakao.message.template.ButtonObject;
+import com.kakao.message.template.ContentObject;
+import com.kakao.message.template.FeedTemplate;
+import com.kakao.message.template.LinkObject;
+import com.kakao.message.template.SocialObject;
+import com.kakao.network.ErrorResult;
+import com.kakao.network.callback.ResponseCallback;
+import com.kakao.util.helper.log.Logger;
 
 public class Login extends Activity {
-EditText ed1,ed2;
-Button btn1;
-TextView tx1,tx2;
-SharedPreferencesUtil spu;
+
+	EditText ed1, ed2;
+	Button btn1, mSendBtn;
+	TextView tx1, tx2;
+	SharedPreferencesUtil spu;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_login);
-		spu=new SharedPreferencesUtil(getApplicationContext());
+
+		//희진추가 - 카카오링크호출
+		mSendBtn = (Button) findViewById(R.id.btnSend);
+		mSendBtn.setOnClickListener(new Button.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				sendLink();
+			}
+		});
+
+		getAppKeyHash(); //희진추가 - 키해시 로그찍기
+
+		spu = new SharedPreferencesUtil(getApplicationContext());
 		setbutton();
 		setbuttonexe();
-		if (ActivityCompat.checkSelfPermission(this,android.Manifest.permission.WRITE_EXTERNAL_STORAGE)!=PackageManager.PERMISSION_GRANTED&&ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+		if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
 			// TODO: Consider calling
-			ActivityCompat.requestPermissions(this,new String[]{android.Manifest.permission.WRITE_EXTERNAL_STORAGE,android.Manifest.permission.ACCESS_COARSE_LOCATION},0);
+			ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.WRITE_EXTERNAL_STORAGE, android.Manifest.permission.ACCESS_COARSE_LOCATION}, 0);
 
+		} else {
 		}
-		else{
-
-		}
-
-		
-		
-		
 	}
+
+	//카카오링크 호출함수
+	private void sendLink(){
+		FeedTemplate params = FeedTemplate
+				.newBuilder(ContentObject.newBuilder("Graduation으로 초대합니다",
+						"https://i.imgur.com/3BNSSB2.png",
+						LinkObject.newBuilder().setWebUrl("https://developers.kakao.com")
+								.setMobileWebUrl("https://developers.kakao.com").build())
+						.setDescrption("즐거운 여행기! 추억을 남겨보아요:)")
+						.build())
+				.addButton(new ButtonObject("앱에서 보기", LinkObject.newBuilder()
+						.setWebUrl("'https://developers.kakao.com")
+						.setMobileWebUrl("'https://developers.kakao.com")
+						.setAndroidExecutionParams("key1=value1")
+						.setIosExecutionParams("key1=value1")
+						.build()))
+				.build();
+
+		Map<String, String> serverCallbackArgs = new HashMap<String, String>();
+		serverCallbackArgs.put("user_id", "${current_user_id}");
+		serverCallbackArgs.put("product_id", "${shared_product_id}");
+
+		KakaoLinkService.getInstance().sendDefault(this, params, serverCallbackArgs, new ResponseCallback<KakaoLinkResponse>() {
+			@Override
+			public void onFailure(ErrorResult errorResult) {
+				Logger.e(errorResult.toString());
+			}
+
+			@Override
+			public void onSuccess(KakaoLinkResponse result) {
+				// 템플릿 밸리데이션과 쿼터 체크가 성공적으로 끝남. 톡에서 정상적으로 보내졌는지 보장은 할 수 없다. 전송 성공 유무는 서버콜백 기능을 이용하여야 한다.
+			}
+		});
+	}
+
+	//희진 추가함수 - 키해시 알아내기(카카오에 필요)
+	private void getAppKeyHash() {
+		try {
+			PackageInfo info = getPackageManager().getPackageInfo(getPackageName(), PackageManager.GET_SIGNATURES);
+			for (Signature signature : info.signatures) {
+				MessageDigest md;
+				md = MessageDigest.getInstance("SHA");
+				md.update(signature.toByteArray());
+				String something = new String(Base64.encode(md.digest(), 0));
+				Log.d("Hash key", something);
+			}
+		} catch (Exception e) {
+// TODO Auto-generated catch block
+			Log.e("name not found", e.toString());
+		}
+	}
+
 
 	@Override
 	public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {

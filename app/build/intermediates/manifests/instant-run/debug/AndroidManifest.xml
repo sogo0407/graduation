@@ -36,6 +36,19 @@
         android:label="@string/app_name"
         android:testOnly="true"
         android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+
+        <!-- 푸시알림 서비스를 위한 코드 ! -->
+        <service android:name="co.kr.newp.MyFirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="co.kr.newp.MyFirebaseInstanceIDService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
         <activity
             android:name="co.kr.newp.Intro"
             android:label="@string/app_name"
@@ -45,6 +58,19 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <!-- 카톡 추가! -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="@string/kakaolink_host"
+                    android:scheme="@string/kakao_scheme" />
+            </intent-filter>
+            <!-- 여기까지! -->
         </activity>
         <activity
             android:name="co.kr.newp.Member_join"
@@ -129,6 +155,12 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="@string/kakao_app_key" />
+
+        <activity android:name="co.kr.newp.friendlist" />
+        <activity android:name="co.kr.newp.friendlist_list" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
@@ -248,6 +280,11 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
             android:authorities="co.kr.newp.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
+
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
             android:authorities="co.kr.newp.com.android.tools.ir.server.InstantRunContentProvider"

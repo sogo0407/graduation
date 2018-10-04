@@ -98,12 +98,12 @@
         android:gravity="center_vertical"
         android:layout_margin="5dp"
         >
-            
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:src="@drawable/gps" 
-                />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/gps" />
         <TextView 
              android:id="@+id/main_content_tx4"
             android:layout_width="wrap_content"
@@ -158,13 +158,15 @@
         android:layout_height="wrap_content"
         android:textColor="#1e90ff"
         android:text="수정 "/>
-       <TextView
+
+    <TextView
         android:id="@+id/main_content_tx7"
-         android:layout_width="wrap_content"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#1e90ff"
-        android:layout_toRightOf="@id/main_content_tx6"
-        android:text=" 삭제"/>
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text=" 삭제"
+        android:textColor="#1e90ff" />
     
 </RelativeLayout>
 

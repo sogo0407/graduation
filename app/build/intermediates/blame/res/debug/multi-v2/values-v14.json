@@ -1,17 +1,36 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Work_studio\\Google-Maps-Google-Place\\NewP\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "outputFile": "C:\\sh2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
             "map": [
                 {
-                    "source": "E:\\Work_studio\\Google-Maps-Google-Place\\NewP\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\bc3d94d8bff73b48a65d0f1a0f481e79\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2,7,8,9,15",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,331,402,485,895",
+                        "endLines": "6,7,8,14,20",
+                        "endColumns": "12,70,82,12,12",
+                        "endOffsets": "326,397,480,890,1312"
+                    },
+                    "to": {
+                        "startLines": "5,10,11,12,18",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "206,482,553,636,1046",
+                        "endLines": "9,10,11,17,23",
+                        "endColumns": "12,70,82,12,12",
+                        "endOffsets": "477,548,631,1041,1463"
+                    }
+                },
+                {
+                    "source": "C:\\sh2\\app\\src\\main\\res\\values-v14\\styles.xml",
                     "from": {
                         "startLines": "7",
                         "startColumns": "4",
-                        "startOffsets": "225",
+                        "startOffsets": "220",
                         "endLines": "9",
                         "endColumns": "12",
-                        "endOffsets": "373"
+                        "endOffsets": "366"
                     },
                     "to": {
                         "startLines": "2",
@@ -20,25 +39,6 @@
                         "endLines": "4",
                         "endColumns": "12",
                         "endOffsets": "201"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\kim\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.0.aar\\f2e221cf53ce7e55f39ccb9abd66fc9f\\res\\values-v14\\values-v14.xml",
-                    "from": {
-                        "startLines": "4,11,12,13,19,27,28,29,32,33",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "297,810,881,964,1374,2028,2148,2211,2365,2428",
-                        "endLines": "8,11,12,18,24,27,28,31,32,33",
-                        "endColumns": "12,70,82,12,12,119,62,12,62,131",
-                        "endOffsets": "568,876,959,1369,1791,2143,2206,2360,2423,2555"
-                    },
-                    "to": {
-                        "startLines": "5,10,11,12,18,24,25,26,29,30",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "206,482,553,636,1046,1468,1588,1651,1805,1868",
-                        "endLines": "9,10,11,17,23,24,25,28,29,30",
-                        "endColumns": "12,70,82,12,12,119,62,12,62,131",
-                        "endOffsets": "477,548,631,1041,1463,1583,1646,1800,1863,1995"
                     }
                 }
             ]

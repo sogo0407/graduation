@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Work_studio\\Google-Maps-Google-Place\\NewP\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-te-rIN\\values-te-rIN.xml",
+            "outputFile": "C:\\sh2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-te-rIN\\values-te-rIN.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kim\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-23.0.0.aar\\2ece2bf5a1ef90427d25e7f89776a68f\\res\\values-te-rIN\\values-te-rIN.xml",
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-23.0.0.aar\\903c0629652f8ac8847240427b424b3a\\res\\values-te-rIN\\values-te-rIN.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -13,28 +13,11 @@
                         "endOffsets": "392,509,622,734,860,960,1059,1182,1291,1378,1473"
                     },
                     "to": {
-                        "startLines": "21,22,23,24,25,26,27,28,29,30,31",
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2068,2183,2300,2413,2525,2651,2751,2850,2973,3082,3169",
+                        "startOffsets": "55,170,287,400,512,638,738,837,960,1069,1156",
                         "endColumns": "114,116,112,111,125,99,98,122,108,86,94",
-                        "endOffsets": "2178,2295,2408,2520,2646,2746,2845,2968,3077,3164,3259"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\kim\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.0.aar\\f2e221cf53ce7e55f39ccb9abd66fc9f\\res\\values-te-rIN\\values-te-rIN.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "291,405,513,636,745,856,946,1051,1176,1258,1340,1425,1538,1646,1746,1857,1959,2076,2203,2304",
-                        "endColumns": "113,107,122,108,110,89,104,124,81,81,84,112,107,99,110,101,116,126,100,100",
-                        "endOffsets": "400,508,631,740,851,941,1046,1171,1253,1335,1420,1533,1641,1741,1852,1954,2071,2198,2299,2400"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,32",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,169,277,400,509,620,710,815,940,1022,1104,1189,1302,1410,1510,1621,1723,1840,1967,3264",
-                        "endColumns": "113,107,122,108,110,89,104,124,81,81,84,112,107,99,110,101,116,126,100,100",
-                        "endOffsets": "164,272,395,504,615,705,810,935,1017,1099,1184,1297,1405,1505,1616,1718,1835,1962,2063,3360"
+                        "endOffsets": "165,282,395,507,633,733,832,955,1064,1151,1246"
                     }
                 }
             ]

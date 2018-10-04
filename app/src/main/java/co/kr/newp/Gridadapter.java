@@ -130,10 +130,10 @@ import java.util.ArrayList;
 	        // 스트림 클래스를 이용하여 이미지를 불러옴
 	        BufferedInputStream bis = new BufferedInputStream(urlcon.getInputStream(), imagelength);
 	        // 스트림을 통하여 저장된 이미지를 이미지 객체에 넣어줌
-	      /*  BitmapFactory.Options options = new BitmapFactory.Options();
-	        options.inSampleSize = 2;*/
-			  //Bitmap bit = BitmapFactory.decodeStream(bis,null,options);
-			  Bitmap bit = BitmapFactory.decodeStream(bis);
+	        BitmapFactory.Options options = new BitmapFactory.Options();
+	        options.inSampleSize = 50;
+			  Bitmap bit = BitmapFactory.decodeStream(bis,null,options);
+			  //Bitmap bit = BitmapFactory.decodeStream(bis);
 
 	        return bit;
 	      } catch (Exception e) {

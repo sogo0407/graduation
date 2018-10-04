@@ -1,61 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Work_studio\\Google-Maps-Google-Place\\NewP\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
+            "outputFile": "C:\\sh2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kim\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-23.0.0.aar\\2ece2bf5a1ef90427d25e7f89776a68f\\res\\values-vi\\values-vi.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "278,385,500,608,715,840,939,1033,1157,1259,1347",
-                        "endColumns": "106,114,107,106,124,98,93,123,101,87,94",
-                        "endOffsets": "380,495,603,710,835,934,1028,1152,1254,1342,1437"
-                    },
-                    "to": {
-                        "startLines": "52,53,54,55,56,57,58,59,60,61,62",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "7112,7219,7334,7442,7549,7674,7773,7867,7991,8093,8181",
-                        "endColumns": "106,114,107,106,124,98,93,123,101,87,94",
-                        "endOffsets": "7214,7329,7437,7544,7669,7768,7862,7986,8088,8176,8271"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\kim\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.1.0.aar\\f2e221cf53ce7e55f39ccb9abd66fc9f\\res\\values-vi\\values-vi.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "287,401,509,632,740,849,933,1036,1155,1232,1309,1393,1497,1606,1707,1812,1926,2031,2151,2250",
-                        "endColumns": "113,107,122,107,108,83,102,118,76,76,83,103,108,100,104,113,104,119,98,100",
-                        "endOffsets": "396,504,627,735,844,928,1031,1150,1227,1304,1388,1492,1601,1702,1807,1921,2026,2146,2245,2346"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,65",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,219,327,450,558,667,751,854,973,1050,1127,1211,1315,1424,1525,1630,1744,1849,1969,8477",
-                        "endColumns": "113,107,122,107,108,83,102,118,76,76,83,103,108,100,104,113,104,119,98,100",
-                        "endOffsets": "214,322,445,553,662,746,849,968,1045,1122,1206,1310,1419,1520,1625,1739,1844,1964,2063,8573"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\kim\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.0.2.aar\\27bf16c5bb668001efdad62c20f1ea28\\res\\values-vi\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "323",
-                        "endColumns": "260",
-                        "endOffsets": "579"
-                    },
-                    "to": {
-                        "startLines": "40",
-                        "startColumns": "4",
-                        "startOffsets": "5201",
-                        "endColumns": "260",
-                        "endOffsets": "5457"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\kim\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-location-9.0.2.aar\\3fc37990913e1bbc365882b23a128679\\res\\values-vi\\values.xml",
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-location-9.0.2.aar\\f10507c0b17d6c6e5b8a72970b7f6327\\res\\values-vi\\values.xml",
                     "from": {
                         "startLines": "4,5",
                         "startColumns": "4,4",
@@ -64,15 +13,49 @@
                         "endOffsets": "373,471"
                     },
                     "to": {
-                        "startLines": "63,64",
+                        "startLines": "61,62",
                         "startColumns": "4,4",
-                        "startOffsets": "8276,8379",
+                        "startOffsets": "8082,8185",
                         "endColumns": "102,97",
-                        "endOffsets": "8374,8472"
+                        "endOffsets": "8180,8278"
                     }
                 },
                 {
-                    "source": "C:\\Users\\kim\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\d3bbdc667e8334b0328056cad509968b\\res\\values-vi\\values.xml",
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\90e44713098f4fac1266d1a2323fbbf9\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "64",
+                        "startColumns": "4",
+                        "startOffsets": "8367",
+                        "endColumns": "100",
+                        "endOffsets": "8463"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.0.2.aar\\917025d855a5dc6428b63d08f082be3a\\res\\values-vi\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "323",
+                        "endColumns": "260",
+                        "endOffsets": "579"
+                    },
+                    "to": {
+                        "startLines": "38",
+                        "startColumns": "4",
+                        "startOffsets": "5007",
+                        "endColumns": "260",
+                        "endOffsets": "5263"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\b172d4133463d32c611d9c2b2c1c62de\\res\\values-vi\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -81,11 +64,45 @@
                         "endOffsets": "577,705,899,1026,1159,1391,1627,1759,1954,2085,2257,2372,2505,2692,2839,3002,3130,3317,3451,3703,3830,3939,4131,4263,4481,4620,4799,4897,4991,5101"
                     },
                     "to": {
-                        "startLines": "21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,41,42,43,44,45,46,47,48,49,50,51",
+                        "startLines": "19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,39,40,41,42,43,44,45,46,47,48,49",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2068,2327,2455,2649,2776,2909,3141,3377,3509,3704,3835,4007,4122,4255,4442,4589,4752,4880,5067,5462,5714,5841,5950,6142,6274,6492,6631,6810,6908,7002",
+                        "startOffsets": "1874,2133,2261,2455,2582,2715,2947,3183,3315,3510,3641,3813,3928,4061,4248,4395,4558,4686,4873,5268,5520,5647,5756,5948,6080,6298,6437,6616,6714,6808",
                         "endColumns": "258,127,193,126,132,231,235,131,194,130,171,114,132,186,146,162,127,186,133,251,126,108,191,131,217,138,178,97,93,109",
-                        "endOffsets": "2322,2450,2644,2771,2904,3136,3372,3504,3699,3830,4002,4117,4250,4437,4584,4747,4875,5062,5196,5709,5836,5945,6137,6269,6487,6626,6805,6903,6997,7107"
+                        "endOffsets": "2128,2256,2450,2577,2710,2942,3178,3310,3505,3636,3808,3923,4056,4243,4390,4553,4681,4868,5002,5515,5642,5751,5943,6075,6293,6432,6611,6709,6803,6913"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.1.aar\\bc3d94d8bff73b48a65d0f1a0f481e79\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,327,436,520,623,742,819,896,980,1084,1193,1294,1399,1513,1618,1775,1874",
+                        "endColumns": "113,107,108,83,102,118,76,76,83,103,108,100,104,113,104,156,98,83",
+                        "endOffsets": "214,322,431,515,618,737,814,891,975,1079,1188,1289,1394,1508,1613,1770,1869,1953"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,63",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,327,436,520,623,742,819,896,980,1084,1193,1294,1399,1513,1618,1775,8283",
+                        "endColumns": "113,107,108,83,102,118,76,76,83,103,108,100,104,113,104,156,98,83",
+                        "endOffsets": "214,322,431,515,618,737,814,891,975,1079,1188,1289,1394,1508,1613,1770,1869,8362"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-23.0.0.aar\\903c0629652f8ac8847240427b424b3a\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "278,385,500,608,715,840,939,1033,1157,1259,1347",
+                        "endColumns": "106,114,107,106,124,98,93,123,101,87,94",
+                        "endOffsets": "380,495,603,710,835,934,1028,1152,1254,1342,1437"
+                    },
+                    "to": {
+                        "startLines": "50,51,52,53,54,55,56,57,58,59,60",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "6918,7025,7140,7248,7355,7480,7579,7673,7797,7899,7987",
+                        "endColumns": "106,114,107,106,124,98,93,123,101,87,94",
+                        "endOffsets": "7020,7135,7243,7350,7475,7574,7668,7792,7894,7982,8077"
                     }
                 }
             ]

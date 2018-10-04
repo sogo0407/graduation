@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string name="kakao_app_key">f6a2ea6a47ea0685722c71de3dd63968</string>
+    <string name="kakao_scheme">kakaof6a2ea6a47ea0685722c71de3dd63968</string>
+    <string name="kakaolink_host">kakaolink</string>
+
     <string name="app_name">NewP</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>

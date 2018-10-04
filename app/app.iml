@@ -32,6 +32,7 @@
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/google-services/debug" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/debug" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/debug" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/debug" isTestSource="true" generated="true" />
@@ -49,13 +50,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/debug/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/assets" type="java-test-resource" />
@@ -63,6 +57,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/assets" type="java-resource" />
@@ -70,13 +71,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
@@ -84,6 +78,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/build-info" />
@@ -96,7 +97,6 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-verifier" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-apk" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-main-apk-res" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-resources" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javaPrecompile" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifest-checker" />
@@ -111,76 +111,90 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/split-apk" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/splits-support" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
-    <orderEntry type="jdk" jdkName="Android API 23 Platform" jdkType="Android SDK" />
+    <orderEntry type="jdk" jdkName="Android API 27 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-basement-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-safetynet-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-games-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-iid-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-analytics-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-media-compat-25.1.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-base-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-identity-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-appindexing-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-drive-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-wallet-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-analytics-impl-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:multidex-1.0.3" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:E.\Work_studio\Google-Maps-Google-Place\NewP\app\libs\Loopj_Aysnchttplibrary_1.4.7_fix.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-auth-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support.constraint:constraint-layout-1.1.2" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:E.\Work_studio\Google-Maps-Google-Place\NewP\app\libs\commons-net-examples-3.3.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-crash-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-vision-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-storage-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-core-ui-25.1.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-v4-25.1.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.android.support:multidex-instrumentation-1.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support.constraint:constraint-layout-solver:1.1.2@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-messaging-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-maps-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:mediarouter-v7-23.0.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-nearby-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:E.\Work_studio\Google-Maps-Google-Place\NewP\app\libs\commons-net-3.3-sources.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-location-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-core-utils-25.1.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.prolificinteractive:material-calendarview-1.4.3" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-panorama-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-gcm-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:E.\Work_studio\Google-Maps-Google-Place\NewP\app\libs\commons-net-3.3.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-appinvite-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-fragment-25.1.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-lite-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-common-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-analytics-impl-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-auth-common-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-iid-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-auth-module-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-plus-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-annotations:25.1.1@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-compat-25.1.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-database-connection-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-storage-common-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-database-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-auth-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:appcompat-v7-23.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-analytics-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-fitness-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-wearable-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tasks-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:E.\Work_studio\Google-Maps-Google-Place\NewP\app\libs\ftp4j-1.5.1.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-auth-base-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-config-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-cast-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tagmanager-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tagmanager-api-9.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: android-android-23" level="project" />
+    <orderEntry type="library" name="com.android.support:animated-vector-drawable-27.0.1" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-wallet-9.0.2" level="project" />
+    <orderEntry type="library" name="org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2@jar" level="project" />
+    <orderEntry type="library" name="android.arch.lifecycle:common:1.0.0@jar" level="project" />
+    <orderEntry type="library" name="de.hdodenhof:circleimageview-2.2.0" level="project" />
+    <orderEntry type="library" name="com.android.support:support-core-utils-27.0.1" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-analytics-9.0.2" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-basement-9.0.2" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-core-9.0.2" level="project" />
+    <orderEntry type="library" name="android.arch.lifecycle:runtime-1.0.0" level="project" />
+    <orderEntry type="library" name="com.android.support:support-media-compat-25.1.1" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-tagmanager-api-9.0.2" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-fitness-9.0.2" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-auth-9.0.2" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-9.0.2" level="project" />
+    <orderEntry type="library" name="com.android.support:customtabs-27.0.1" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-base-9.0.2" level="project" />
+    <orderEntry type="library" name="com.android.support:support-v4-25.1.1" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-identity-9.0.2" level="project" />
+    <orderEntry type="library" name="com.android.support:support-vector-drawable-27.0.1" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-vision-9.0.2" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-drive-9.0.2" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-cast-9.0.2" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-iid-9.0.2" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-safetynet-9.0.2" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-tasks-9.0.2" level="project" />
+    <orderEntry type="library" name="com.kakao.sdk:kakaolink-1.13.0" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-auth-common-9.0.2" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-common-9.0.2" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-config-9.0.2" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\sh2\app\libs\ftp4j-1.5.1.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="android.arch.core:common:1.0.0@jar" level="project" />
+    <orderEntry type="library" name="com.android.support:support-compat-27.0.1" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-auth-9.0.2" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-wearable-9.0.2" level="project" />
+    <orderEntry type="library" name="com.android.support:support-core-ui-27.0.1" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-analytics-9.0.2" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-auth-module-9.0.2" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\sh2\app\libs\commons-net-3.3.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-auth-base-9.0.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="com.android.support:multidex-instrumentation-1.0.2" level="project" />
+    <orderEntry type="library" name="com.android.support:support-fragment-27.0.1" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-games-9.0.2" level="project" />
+    <orderEntry type="library" name="com.android.support:multidex-1.0.3" level="project" />
+    <orderEntry type="library" name="com.android.support:appcompat-v7-27.0.1" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-analytics-impl-9.0.2" level="project" />
+    <orderEntry type="library" name="com.squareup.okhttp3:okhttp:3.2.0@jar" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-messaging-9.0.2" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-appindexing-9.0.2" level="project" />
+    <orderEntry type="library" name="com.kakao.sdk:network-1.13.0" level="project" />
+    <orderEntry type="library" name="com.android.support:support-annotations:27.0.1@jar" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-iid-9.0.2" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\sh2\app\libs\commons-net-examples-3.3.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="com.android.support.constraint:constraint-layout-1.1.2" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-storage-9.0.2" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-database-connection-9.0.2" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-analytics-impl-9.0.2" level="project" />
+    <orderEntry type="library" name="com.kakao.sdk:message-template-1.13.0" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-appinvite-9.0.2" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-crash-9.0.2" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-nearby-9.0.2" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\sh2\app\libs\Loopj_Aysnchttplibrary_1.4.7_fix.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-location-9.0.2" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-storage-common-9.0.2" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-panorama-9.0.2" level="project" />
+    <orderEntry type="library" name="com.prolificinteractive:material-calendarview-1.4.3" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\sh2\app\libs\commons-net-3.3-sources.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-tagmanager-9.0.2" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-database-9.0.2" level="project" />
+    <orderEntry type="library" name="com.squareup.okio:okio:1.6.0@jar" level="project" />
+    <orderEntry type="library" name="com.android.support:mediarouter-v7-23.0.0" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-ads-lite-9.0.2" level="project" />
+    <orderEntry type="library" name="com.kakao.sdk:util-1.13.0" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-plus-9.0.2" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-ads-9.0.2" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-gcm-9.0.2" level="project" />
+    <orderEntry type="library" name="com.android.support.constraint:constraint-layout-solver:1.1.2@jar" level="project" />
+    <orderEntry type="library" name="com.google.android.gms:play-services-maps-9.0.2" level="project" />
   </component>
 </module>
